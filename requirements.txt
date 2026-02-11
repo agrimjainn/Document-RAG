@@ -1,18 +1,28 @@
 langchain
 langchain-community
-langchain-openai
+langchain-huggingface
+langchain-groq
 langgraph
-openai
+langgraph-prebuilt
+
 faiss-cpu
 pydantic
 python-dotenv
-beautifulsoup4
-requests
 streamlit
-wikipedia
-ipynb
 
-# For free embedding
+# LLM / Embeddings
+groq
 huggingface_hub
 transformers
+torch                  # ✅ correct name (not pytorch)
+
+# Document loading
 pypdf
+beautifulsoup4
+requests
+
+# Wikipedia tool
+wikipedia-api          # ✅ correct name, or just leave it — langchain-community bundles it
+
+# Misc
+ipynb
