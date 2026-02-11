@@ -1,28 +1,30 @@
-langchain
-langchain-community
+# Core LangChain
+langchain>=1.2.9
+langchain-community>=0.4.1
 langchain-huggingface
-langchain-groq
-langgraph
+langchain-groq>=1.1.2
+langgraph>=1.0.8
 langgraph-prebuilt
 
-faiss-cpu
-pydantic
-python-dotenv
-streamlit
+# Embeddings
+huggingface-hub>=1.4.1
+sentence-transformers
+transformers>=5.1.0
+torch
 
-# LLM / Embeddings
-groq
-huggingface_hub
-transformers
-torch                  # ✅ correct name (not pytorch)
+# Vector store
+faiss-cpu>=1.13.2
 
 # Document loading
-pypdf
-beautifulsoup4
-requests
+pypdf>=6.7.0
+beautifulsoup4>=4.14.3
+requests>=2.32.5
 
 # Wikipedia tool
-wikipedia-api          # ✅ correct name, or just leave it — langchain-community bundles it
+wikipedia>=1.4.0
 
-# Misc
-ipynb
+# App
+streamlit>=1.54.0
+pydantic>=2.12.5
+python-dotenv>=1.2.1
+ipynb>=0.5.1
